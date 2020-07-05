@@ -1,5 +1,5 @@
-# Memcached server based on openSUSE Leap 15
-FROM fcrespel/base-image:opensuse15
+# Memcached server based on openSUSE Leap 15.2
+FROM fcrespel/base-image:opensuse15.2
 
 # Environment
 ENV MEMCACHED_USER=memcached
