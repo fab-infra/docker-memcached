@@ -1,5 +1,5 @@
-# Memcached server based on openSUSE Leap 15.2
-FROM ghcr.io/fab-infra/base-image:opensuse15.2
+# Memcached server based on openSUSE Leap 15.3
+FROM ghcr.io/fab-infra/base-image:opensuse15.3
 
 # Environment
 ENV MEMCACHED_USER=memcached
