@@ -11,8 +11,7 @@ RUN zypper in -y memcached &&\
 
 # Files
 COPY ./root /
-RUN chmod +x /run.sh &&\
-	chmod a+rw /etc/passwd /etc/group
+RUN chmod a+rw /etc/passwd /etc/group
 
 # Ports
 EXPOSE 11211
